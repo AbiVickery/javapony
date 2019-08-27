@@ -1,0 +1,74 @@
+.hello {
+    width: 200px;
+    height: 200px;
+    background: purple;
+    transition: all 2s ease-in-out;
+}
+
+.goodbye {
+    width: 400px;height: 400px;
+    background: pink;
+}
+
+.pony1 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(3520px /44 );
+    height: 90px;
+    background: url(SparklyKeys-sit.png);
+    animation: animate 500ms steps(44) infinite;
+    margin: -200px 95px -375px 22px;
+}
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 1440px;
+    }
+}
+
+.pony2 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(3520px /44 );
+    height: 90px;
+    background: url(Nightmare\ Keys-sit.png);
+    animation: animate 500ms steps(44) infinite;
+    margin: -200px 95px -375px 22px;
+}
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 1440px;
+    }
+}
+
+.pony3 {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(3520px /44);
+    height: 90px;
+    background: url(SpKhopeless-sit.png);
+    animation: animate 500ms steps(44) infinite;
+    margin: -200px 95px -375px 22px;
+}
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 1440px;
+    }
+}
